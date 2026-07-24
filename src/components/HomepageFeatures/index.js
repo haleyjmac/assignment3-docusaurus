@@ -4,32 +4,28 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Have Any Thoughts on Our Latest Read?',
+    Svg: require('@site/static/img/undraw_bibliophile_sbt0.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      <>If you would like to share any thoughts outside of our meetings, comment them here!
+      
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Want to Revisit Past Discussions?',
+    Svg: require('@site/static/img/undraw_online-articles_g9cg.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      <>Key takeaways mentioned in our previous meetings will be posted here!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Want to Recommend our Next Read?',
+    Svg: require('@site/static/img/undraw_bookshelves_vhu6.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Comment recommendations and vote on other books! This will help determine our next book club read!
       </>
     ),
   },

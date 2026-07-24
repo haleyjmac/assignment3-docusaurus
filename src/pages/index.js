@@ -10,33 +10,36 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('What did the book club think about our latest read?', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className="">
           {siteConfig.title}
+
+          
+            
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        A website that covers everything related to our biweekly book club meetings! All of our thoughts will be recorded here for later viewing.
+
+      
+          
       </div>
     </header>
+  
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const {siteConfig} = {}
+  
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={'Biweekly Book Club'}
+      tagline={'A place to record all of our book club-related thoughts'}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        Thank you for visiting!
       </main>
     </Layout>
   );
