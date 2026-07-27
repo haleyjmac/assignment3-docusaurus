@@ -114,11 +114,6 @@ const config = {
 
         // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
         // forceIgnoreNoIndex: true,
-      // Enable Ask AI integration:
-        // askAi: {
-        //   project: "your-project-name",
-        //   apiUrl: "https://your-api-url.com/api/stream",
-        //   hotkey: "cmd+I", // Optional: keyboard shortcut to trigger Ask AI
          // },
       }),
     ],
